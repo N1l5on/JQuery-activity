@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 7px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+label,
+input,
+textarea {
+  display: flex;
+  margin: 8px 0 0 9px;
+  align-items: center;
+}
+
+button {
+  margin: 9px;
+}
+
+h2 {
+  margin: 7px 0 0 7px;
+}
+
+div img {
+  max-width: 20%;
+  height: 100px;
+}
